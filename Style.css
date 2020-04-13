@@ -1,67 +1,70 @@
-.title{
+.title {
     text-align: center;
     margin-top: 50px;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
 
-.calculadora{
+.calculadora {
     border: 5px solid rgb(87, 87, 87);
     border-radius: 10px;
     background: #b8b8b8;
     width: fit-content;
-    margin:auto;
+    margin: auto;
     font-size: 28px;
     padding: 30px 10px;
 }
-.contenido{
+
+.contenido {
     border: 2px solid black;
-    background:white;
-    padding: 10px;
-}
-.resultado{
-    padding: 10px;
-}
-
-#n0{
-    padding: 15px 40px;
+    background: white;
+    padding: 20px;
+    height: 20px;
+    width: auto;
 }
 
-button{
+#n0 {
+    width: 128px;
+}
+
+#resultado {
+    width: 128px;
+
+}
+
+#punto {
     background: white;
     border: 1.5px solid black;
-    padding: 15px;
+
 }
-button:hover{
-    background:#c1bdff;
+
+button {
+    background: white;
+    border: 1.5px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+button:hover {
+    background: #c1bdff;
     transition: 300ms ease;
 }
-.numeros div{
+
+.numeros div {
     text-align: center;
 }
-.numeros{
-    padding: 0px 0px -10px 0px;
-}
-.numeros button{
-    margin-top:5px ;
-}
-.signos{
-    padding: 0px 12px 0px 0px 
-}
-.signos button{
-    margin-left: 20px;
+
+.numeros button {
     margin-top: 5px;
-    display: block;
-    width: 50px;
 }
-.botones{
+
+
+.botones {
     margin-top: 20px;
     display: flex;
 }
-.numeros .igual{
+
+.igual {
     margin-top: 15px;
-    padding: 10px 60px;
+    padding: 40px 15px;
     text-align: center;
-}
-.signos .raiz{
-    margin-left: 20px;
 }
