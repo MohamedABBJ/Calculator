@@ -22,6 +22,10 @@
     padding: 10px;
 }
 
+#n0{
+    padding: 15px 40px;
+}
+
 button{
     background: white;
     border: 1.5px solid black;

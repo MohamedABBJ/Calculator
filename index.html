@@ -19,32 +19,33 @@
             <div class="botones">
                 <div class="numeros">
                     <div>
-                        <button id="n7">7</button>
-                        <button id="n8">8</button>
-                        <button id="n9">9</button>
+                        <button id="n7" value="7" onclick="input(this)">7</button>
+                        <button id="n8" value="8" onclick="input(this)">8</button>
+                        <button id="n9" value="9" onclick="input(this)">9</button>
                     </div>
                     <div>
-                        <button id="n4">4</button>
-                        <button id="n5">5</button>
-                        <button id="n6">6</button>
+                        <button id="n4" value="4" onclick="input(this)">4</button>
+                        <button id="n5" value="5" onclick="input(this)">5</button>
+                        <button id="n6" value="6" onclick="input(this)">6</button>
                     </div>
                     <div>
-                        <button id="n1">1</button>
-                        <button id="n2">2</button>
-                        <button id="n3">3</button>
+                        <button id="n1" value="1" onclick="input(this)">1</button>
+                        <button id="n2" value="2" onclick="input(this)">2</button>
+                        <button id="n3" value="3" onclick="input(this)">3</button>
                     </div>
                     <div>
-                        <button id="n0">0</button>
+                        <button id="n0" value="0" onclick="input(this)">0</button>
+                        <button id="borrar" onclick="del()">C</button>
                     </div>
                     <div>
-                        <button id="igual" class="igual">=</button>
+                        <button id="igual" onclick="result()" class="igual">=</button>
                     </div>
                 </div>
                     <div class="signos">
-                        <button id="mas">+</button>
-                        <button id="resta">-</button>
-                        <button id="multiplicar">x</button>
-                        <button id="dividir">÷</button>
+                        <button onclick="input(this)" value="+" id="mas">+</button>
+                        <button onclick="input(this)" value="-" id="resta">-</button>
+                        <button onclick="input(this)" value="x" id="multiplicar">x</button>
+                        <button onclick="input(this)" value="/" id="dividir">÷</button>
                         <button id="raiz" class="raiz">√</button>
                     </div>
             </div>
