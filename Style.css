@@ -1,6 +1,6 @@
 .title{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 1px;
     padding-bottom:5px;
 }
 
@@ -10,13 +10,13 @@
     background: #b8b8b8;
     width: fit-content;
     margin:auto;
-    font-size: 28px;
-    padding: 30px 10px;
+    font-size: 20px;
+    padding: 15px 10px;
 }
 .contenido{
     border: 2px solid black;
     background:white;
-    padding: 10px;
+    padding: 0px;
 }
 .resultado{
     padding: 10px;
@@ -31,33 +31,33 @@ button:hover{
     background:#c1bdff;
     transition: 300ms ease;
 }
-.numeros div{
-    text-align: center;
-}
 .numeros{
-    padding: 0px 0px -10px 0px;
+    padding: 0px 0px 20px 0px;
 }
 .numeros button{
-    margin-top:5px ;
+    margin-top:5px;
+    width: 50px;
 }
 .signos{
-    padding: 0px 12px 0px 0px 
+    padding: 0px 0px 0px 0px 
 }
 .signos button{
-    margin-left: 20px;
     margin-top: 5px;
-    display: block;
+    display: inline-block;
     width: 50px;
 }
 .botones{
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
 }
-.numeros .igual{
-    margin-top: 15px;
-    padding: 10px 60px;
-    text-align: center;
+.signos2 .igual{
+    height: 117px;
 }
-.signos .raiz{
-    margin-left: 20px;
+.signos2{
+    display: flex;
+    float: right;
+    flex-flow: column;
+}
+.elimt2 .elimt{
+    text-align: center;
 }
