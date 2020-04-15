@@ -1,12 +1,13 @@
 let a = ""
+
 let maxsign
-function input(button, signo, raiz) {
+let maxsign2
+function input(button, signo) {
     if (signo) {
         if (maxsign) {
             a = a.substring(0, a.length - 1)
             a = a + button.value
             document.getElementById("resultado").innerHTML = a
-            console.log (a)
         }
         else {
             document.getElementById("resultado").innerHTML = document.getElementById("resultado").innerHTML + button.value
@@ -19,13 +20,17 @@ function input(button, signo, raiz) {
         a = document.getElementById("resultado").innerHTML
         maxsign = false
     }
-    a = a.replace(/x/g, "*")   
+    a = a.replace(/x/g, "*")
 }
+
+
 function equal() {
     if (document.getElementById("resultado").innerHTML == ("0/0")) {
         document.getElementById("resultado").innerHTML = "You can't divide in cero"
-    } else {
+    }
+    else{
         document.getElementById("resultado").innerHTML = eval(a)
+        console.log(a)
     }
 }
 
