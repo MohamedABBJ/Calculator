@@ -51,13 +51,13 @@ button:hover{
     display: flex;
 }
 .signos2 .igual{
-    height: 117px;
+    height: 176px;
 }
 .signos2{
     display: flex;
     float: right;
     flex-flow: column;
 }
-.elimt2 .elimt{
-    text-align: center;
+.signos3 .elimt{
+    width: 105px;
 }

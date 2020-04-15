@@ -1,8 +1,8 @@
 let a = ""
-
 let maxsign
 let maxsign2
 function input(button, signo) {
+    
     if (signo) {
         if (maxsign) {
             a = a.substring(0, a.length - 1)
@@ -21,6 +21,12 @@ function input(button, signo) {
         maxsign = false
     }
     a = a.replace(/x/g, "*")
+    a = a.replace(/√/g, "Math.sqrt")
+    if (a == "Math.sqrt("){
+        a = a.substring(0, a.length -11)
+        a = a + button.value
+    }
+    console.log(a)
 }
 
 
@@ -30,7 +36,6 @@ function equal() {
     }
     else{
         document.getElementById("resultado").innerHTML = eval(a)
-        console.log(a)
     }
 }
 

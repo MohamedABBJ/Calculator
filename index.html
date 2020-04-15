@@ -14,7 +14,7 @@
     </section>
     <div class="calculadora">
         <div class="contenido">
-            <div class="resultado" id="resultado"></div>
+            <div class="resultado" id="resultado" ></div>
         </div>
         <div class="botones">
             <div class="numeros">
@@ -25,7 +25,7 @@
                     <button id="elim" onclick="elim()">←</button>
                 </div>
                 <div class="signos2">
-                    <button id="raiz"onclick="input(this, true, true)" value="√" class="raiz">√</button>
+                    <button id="raiz"onclick="input(this)" value="√(" class="raiz">√</button>
                     <button id="dividir"onclick="input(this, true)" value="/" >÷</button>
                     <button id="igual" onclick="equal()" class="igual">=</button>
                 </div>
@@ -46,10 +46,14 @@
                 </div>
                 <div class="elimt2">
                     <button id="n0" value= 0 onclick="input(this)">0</button>
+                    <button id="pd" onclick="input(this)" value="(" class="pd">(</button>
+                    <button id="pi" onclick="input(this)" value=")" class="pi">)</button>
+                </div>
+                <div class="signos3">
                     <button id="punto" value ="." onclick="input(this)" class="punto">.</button>
                     <button id="elimt" onclick="elimt()" class="elimt">CE</button>
                 </div>
-                </div>
+            </div>
             </div>
     </div> 
 </body>
